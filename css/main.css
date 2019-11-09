@@ -1,43 +1,43 @@
-corps {
-    marge: auto 60px;
-    largeur: 70%;
+body {
+    margin: 60px auto;
+    width: 70%;
 }
 nav ul, footer ul {
-    famille de polices: «Helvetica», «Arial», «Sans-Serif»;
-    remplissage: 0px;
-    style de liste: aucun;
-    poids de police: gras;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
 }
 nav ul li, footer ul li {
-    affichage: en ligne;
-    marge droite: 20px;
+    display: inline;
+    margin-right: 20px;
 }
-une {
-    texte-décoration: aucun;
-    couleur: # 999;
+a {
+    text-decoration: none;
+    color: #999;
 }
-a: hover {
-    texte-décoration: souligné;
+a:hover {
+    text-decoration: underline;
 }
 h1 {
-    taille de police: 3em;
-    famille de polices: «Helvetica», «Arial», «Sans-Serif»;
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    taille de police: 1.5em;
-    hauteur de ligne: 1.4em;
-    couleur: # 333;
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
 }
-bas de page {
-    border-top: 1px solid # d5d5d5;
-    taille de police: .8em;
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
 }
 
 ul.posts { 
-    marge: 20px auto 40px; 
-    taille de police: 1.5em;
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
 }
 
 ul.posts li {
-    style de liste: aucun;
+    list-style: none;
 }
