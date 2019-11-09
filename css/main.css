@@ -1,0 +1,43 @@
+corps {
+    marge: auto 60px;
+    largeur: 70%;
+}
+nav ul, footer ul {
+    famille de polices: «Helvetica», «Arial», «Sans-Serif»;
+    remplissage: 0px;
+    style de liste: aucun;
+    poids de police: gras;
+}
+nav ul li, footer ul li {
+    affichage: en ligne;
+    marge droite: 20px;
+}
+une {
+    texte-décoration: aucun;
+    couleur: # 999;
+}
+a: hover {
+    texte-décoration: souligné;
+}
+h1 {
+    taille de police: 3em;
+    famille de polices: «Helvetica», «Arial», «Sans-Serif»;
+}
+p {
+    taille de police: 1.5em;
+    hauteur de ligne: 1.4em;
+    couleur: # 333;
+}
+bas de page {
+    border-top: 1px solid # d5d5d5;
+    taille de police: .8em;
+}
+
+ul.posts { 
+    marge: 20px auto 40px; 
+    taille de police: 1.5em;
+}
+
+ul.posts li {
+    style de liste: aucun;
+}
